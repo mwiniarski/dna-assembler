@@ -7,8 +7,11 @@
 /build
 
 #executable
-generator
+assembler
 
-#output files
+#output files from generator
 whole_correct_genome
 out
+
+#output files from assembler
+assembling-result
