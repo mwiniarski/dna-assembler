@@ -1,0 +1,10 @@
+# -*- python -*-
+Import('env')
+
+lib = env.StaticLibrary('lib', ['Assembler.cpp'], )
+
+env.BoostTests(Glob('tests/*.cpp'), lib)
+
+p = env.Program('assembler', ['main.cpp'] ,LIBS=[lib])
+
+Return('p')

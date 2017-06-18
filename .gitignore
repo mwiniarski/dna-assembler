@@ -1,0 +1,14 @@
+*.o
+*.so
+*.dylib
+*.a
+
+#output folder
+/build
+
+#executable
+generator
+
+#output files
+whole_correct_genome
+out
